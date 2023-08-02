@@ -1,0 +1,12 @@
+
+.main{
+    width: 100vw;
+    height: 150vh;
+    background: url("Img/FondoLogin.svg");
+}
+
+.parte1{
+    border-radius: 3%;
+    background-color: magenta;
+    color: aliceblue;
+}
