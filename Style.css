@@ -1,12 +1,15 @@
 
 .main{
     width: 100vw;
-    height: 150vh;
-    background: url("Img/FondoLogin.svg");
+    height: 100vh;
+    background-color: rgb(163, 161, 161);
 }
 
-.parte1{
-    border-radius: 3%;
-    background-color: magenta;
-    color: aliceblue;
+.login{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(182, 14, 14);
 }
