@@ -85,7 +85,7 @@
 .logimenu .user input:valid ~ label {
     top: -20px;
     left: 0;
-    color: #17116d;
+    color: black;
     font-size: 12px;
 }
 .nm{
