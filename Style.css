@@ -62,6 +62,7 @@
     width: 300px;
     height: 30px;
     border: transparent;
+    outline: none;
 }
 .contraseña input{
     font-family: "Font Awesome 5 Free";
@@ -71,6 +72,7 @@
     background-color: rgb(196, 213, 229);
     border-radius: 30px; 
     border: transparent;
+    outline: none;
 }
 .nm{
     display: flex;
@@ -80,13 +82,19 @@
 #ca{
     margin-left: 90px;
 }
-.boton{
+.botin:hover{
+    background-color: #330867;
+    color: white;
+}
+
+.botin{
     width: 300px;
     height: 30px;
-    background-image: linear-gradient(to right, #56317a 0%, #3ab5b0 100% );
+    background: linear-gradient(to right, #56317a 0%, #3ab5b0 100% );
     border-radius: 30px;
     color: white;
 }
-.logimenu button:hover{
-    color: yellow;
+
+.botin:hover{
+    background: linear-gradient(to right, #b3ff00d3 0%, #9c3364 100% );
 }
