@@ -1,4 +1,5 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100&display=swap');
+/*font-family: 'Fira Sans', sans-serif;*/
 .main{
     width: 100vw;
     height: 100vh;
@@ -20,7 +21,10 @@
     width:400px;
     height: 550px;
     background-color: white;
+    display: flex;
+    flex-direction: column;
     text-align: center;
+    align-items: center;
 }
 .login{
     width: 400px;
@@ -30,6 +34,51 @@
     justify-content: center;
     align-items: center;
 }
+.login h1{
+    color: white;
+}
+.h1{
+    font-family: 'Fira Sans', sans-serif;
+}
+.p{
+    font-family: 'Fira Sans', sans-serif;
+}
+.login p{
+    color: white;
+}
+.logimenu{
+    width: 400px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
 .usuario{
-    width: 20;
+    width: 300px;
+    height: 30px;
+    background-color: rgb(196, 213, 229);
+    display: flex;
+    border-radius: 30px;
+}
+.contraseña{
+    width: 300px;
+    height: 30px;
+    background-color: rgb(196, 213, 229);
+    border-radius: 30px;  
+}
+.nm{
+    display: flex;
+    align-items: flex-end;
+}
+
+#ca{
+    margin-left: 90px;
+}
+.boton{
+    width: 300px;
+    height: 30px;
+    background-image: linear-gradient(to right, #56317a 0%, #3ab5b0 100% );
+    border-radius: 30px;
 }
