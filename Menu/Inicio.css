@@ -4,11 +4,41 @@
     background-image: linear-gradient(-225deg, rgb(0, 253, 253) 0%, rgb(0, 42, 82) 100%);
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 .menu{
     width: 90%;
     height: 85%;
     background-color: rgb(0, 2, 50);
     color: white;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    justify-content: space-between;    
+}
+.icono{
+    display: flex;
+    align-items: center;
+}
+.icono img{
+    width: 100px;
+    height: 100px;
+}
+.menufinal{
+    width: 500px;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.men:hover{
+    color: aqua;
+    border: 1px solid aqua;
+    border-radius: 1px;
+    cursor: pointer;
+}
+.imagen{
+    width: 150px;
+    height: 50px;
+    display: flex;
+    align-items: center;
 }

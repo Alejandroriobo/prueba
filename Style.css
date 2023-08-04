@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100&display=swap');
 /*font-family: 'Fira Sans', sans-serif;*/
+*{
+    caret-color: transparent;
+}
 .main{
     width: 100vw;
     height: 100vh;
@@ -25,6 +28,7 @@
     flex-direction: column;
     text-align: center;
     align-items: center;
+    border-radius: 5vh;
 }
 .login{
     width: 400px;
@@ -33,6 +37,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 5vh 5vh 0 0;
 }
 .login h1{
     color: white;
@@ -56,7 +61,7 @@
 }
 .logimenu .user {
     position: relative;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
   
 .logimenu .user input {
@@ -107,6 +112,7 @@
 .botin{
     width: 200px;
     height: 70px;
+    padding: 10px;
     background: linear-gradient(to right, #56317a 0%, #3ab5b0 100% );
     border-radius: 30px;
     color: white;
