@@ -36,15 +36,14 @@
 }
 .login h1{
     color: white;
-}
-.h1{
-    font-family: 'Fira Sans', sans-serif;
-}
-.p{
     font-family: 'Fira Sans', sans-serif;
 }
 .login p{
     color: white;
+    font-family: 'Fira Sans', sans-serif;
+}
+.sombra h1{
+    font-family: 'Fira Sans', sans-serif;
 }
 .logimenu{
     width: 400px;
@@ -55,18 +54,23 @@
     justify-content: space-around;
     align-items: center;
 }
-.usuario{
-    width: 300px;
-    height: 30px;
+.usuario input{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
     background-color: rgb(196, 213, 229);
-    display: flex;
     border-radius: 30px;
+    width: 300px;
+    height: 30px;
+    border: transparent;
 }
-.contraseña{
+.contraseña input{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
     width: 300px;
     height: 30px;
     background-color: rgb(196, 213, 229);
-    border-radius: 30px;  
+    border-radius: 30px; 
+    border: transparent;
 }
 .nm{
     display: flex;
@@ -81,4 +85,8 @@
     height: 30px;
     background-image: linear-gradient(to right, #56317a 0%, #3ab5b0 100% );
     border-radius: 30px;
+    color: white;
+}
+.logimenu button:hover{
+    color: yellow;
 }
