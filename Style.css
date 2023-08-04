@@ -51,36 +51,53 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
-.usuario input{
-    font-family: "Font Awesome 5 Free";
-    font-weight: 900;
-    background-color: rgb(196, 213, 229);
-    border-radius: 30px;
-    width: 300px;
-    height: 30px;
-    border: transparent;
-    outline: none;
+.logimenu .user {
+    position: relative;
+    margin-bottom: 20px;
 }
-.contraseña input{
-    font-family: "Font Awesome 5 Free";
-    font-weight: 900;
-    width: 300px;
-    height: 30px;
-    background-color: rgb(196, 213, 229);
-    border-radius: 30px; 
-    border: transparent;
+  
+.logimenu .user input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #08083b;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 2px solid #0e4e79;
     outline: none;
+    background: transparent;
+}
+  
+.logimenu .user label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 16px;
+    color: #070836;
+    pointer-events: none;
+    transition: 0.5s;
+}
+  
+.logimenu .user input:focus ~ label,
+.logimenu .user input:valid ~ label {
+    top: -20px;
+    left: 0;
+    color: #17116d;
+    font-size: 12px;
 }
 .nm{
     display: flex;
     align-items: flex-end;
+    font-size: 13px;
 }
-
 #ca{
-    margin-left: 90px;
+    margin-left: 30px;
+}
+#ca:hover{
+    color:#30a1ec;
 }
 .botin:hover{
     background-color: #330867;
@@ -88,13 +105,14 @@
 }
 
 .botin{
-    width: 300px;
-    height: 30px;
+    width: 200px;
+    height: 70px;
     background: linear-gradient(to right, #56317a 0%, #3ab5b0 100% );
     border-radius: 30px;
     color: white;
 }
 
 .botin:hover{
-    background: linear-gradient(to right, #b3ff00d3 0%, #9c3364 100% );
+    background: linear-gradient(to right, #4fdbeed3 0%, #26eb71 100% );
+    color: black;
 }
