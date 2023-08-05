@@ -70,16 +70,19 @@
     color: aqua;
     padding: 8px;
     border-radius: 50px;
+    
     border-color:aqua;
     width: 150px;
     font-weight: bolder;
     margin-top: 30px;
+    border-width: 3px;
 }
 .bot:hover{
     font-weight: bold;
     background-color: aqua;
-    color: black;
-    border-color: black;
+    color: rgb(0, 2, 50);
+    border-color: rgb(0, 2, 50);
+    font-weight: bolder;
 }
 .imagen img{
     width: 100%;
